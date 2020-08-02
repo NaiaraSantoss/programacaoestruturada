@@ -1,0 +1,92 @@
+body{
+    text-align: center;
+}
+
+#feedback{
+    color: red;
+    /* Poderia usar:;
+    color: #ff0000;*/
+    /* Poderia usar:;
+    color: rgb(255, 0, 0);*/
+}
+#resposta{
+    align-items: center;
+    text-align: center;
+
+}
+#entrada{
+    align-items: center;
+    width: 25%;
+    height: 60px;
+    border: 2px solid #4CAF50;
+    border-radius: 4px;
+    
+}
+
+#posicao{
+  align-items: center;
+  width: 5%;
+  height: 60px;
+  border: 2px solid #4CAF50;
+  border-radius: 4px;
+}
+
+.btn:first-child{
+    
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+  }
+  .btn{
+   
+    border: 2px solid rgb(12, 73, 185); /* Green */
+    background-color: #4CAF50; /* Green */
+    border-radius: 8px;
+    color: white;
+    padding: 10px 21px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+  }
+
+  .vir{
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+  }
+  .vir:last-child{
+    padding: 10px 21px;
+    display: block;
+  }
+
+
+  .aplicacoes{
+   
+    background-color: white; 
+    color: black; 
+    border: 2px solid #4CAF50;
+    border-radius: 4px;
+    padding: 10px 21px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+
+  }    
+
+  .aplicacoes:hover {
+    background-color: #4CAF50;
+    color: white;
+    
+  }
+
+  .aplicacoes:disabled {
+    opacity: 0.6;
+    cursor: not-allowed;
+  }

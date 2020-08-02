@@ -1,0 +1,26 @@
+h2{
+  color: red;
+}
+#cabecalho{
+	text-align: right;
+	width: 45%;
+
+float: right;
+}
+
+#imagem{
+	text-align: left;
+	width: 45%;
+
+float: left;
+
+}
+
+img {
+  border-radius: 4px;
+  padding: 5px;
+  width: 100px;
+}
+#cabecalho{
+	position:right;
+}

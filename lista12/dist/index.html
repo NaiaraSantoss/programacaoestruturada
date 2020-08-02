@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - Lista12</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8"/>
+        <title></title>
+        <!-- stylesheets -->
+        <link rel="stylesheet" href="Treant.css" type="text/css"/>
+        <link rel="stylesheet" href="style.css" type="text/css" />
+    </head>
+<body>
+    <h1>Aplicações práticas de árvores</h1>
+    <h3>Você pode adicionar valores usando <b>Enter</b></h3>
+    
+    <p id="feedback"></p>
+    <p>
+        
+        
+        <input id="entrada" type="text" name="arvore">
+    </p>
+    <p>
+
+        <input type="button" onclick="addValor()"  id="addValor" value="addVaue" class="aplicacoes">
+       
+        <input type="button" onclick="valorMaximo()"  id="valorMaximo" value="valor Maximo" class="aplicacoes">
+        
+        <input type="button" onclick="valorMinimo()" id="valorMinimo" value="valor Minimo" class="aplicacoes">
+
+        <input type="button" onclick="encontrarValor()" id="encontrarValor" value="find value" class="aplicacoes">
+
+        <input type="button" onclick="clearr()" id="clearr" value="clearr" class="aplicacoes">
+
+        
+        <input type="button" onclick="calibrar()" id="calibrar" value="balancear" class="aplicacoes">
+
+       
+        
+    </p>
+    <p id="resposta" ></p>
+    
+    
+   <!-- Area da Arvore -->
+    
+        <div id="tree-simple"> </div>
+    
+        <!-- javascript -->
+     <script src="Treant.js"></script>
+     <script src="raphael.js"></script>
+     <script src="main.js"></script>
+ </body>
+ </html>
+<!-- partial -->
+  <script  src="./script.js"></script>
+
+</body>
+</html>
